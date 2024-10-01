@@ -1,0 +1,120 @@
+.chart-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.chart {
+    width: 80%; /* Adjust width as needed */
+    color:black;
+}
+#toggleOrientation {
+    padding: 5px 10px; /* Adjust the padding to reduce size */
+    font-size: 14px;    /* Change font size as needed */
+    margin: 10px;       /* Optional: add some margin around the button */
+    cursor: pointer;     /* Change cursor to pointer */
+}
+.error{
+    color:red !important;
+}
+.ui-datepicker-trigger{
+    width:30px !important;
+    height:30px !important;
+    cursor:pointer;
+}
+#select-error{
+    text-align: center;
+}
+#loader {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999; /* Makes sure the loader stays on top */
+  }
+  .back_btn{
+    background-color:#141414 !important;
+    color: white;
+  }
+  #save-namination{
+    background-color:#141414 !important;
+    color: white;
+  }
+  .select2-container .select2-search--inline .select2-search__field{
+    height: 25px !important;
+  }
+  .table-light2 {
+
+    --bs-table-bg: #3fc2a3 !important;
+    color: #fff !important;
+}
+
+/* select 2 styles*/
+.select2-container--default .select2-selection--multiple {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    min-height: 38px;
+    padding: 6px;
+}
+
+/* Custom styles for buttons */
+.select2-dropdown .select-all-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between buttons */
+    padding: 8px; /* Padding around the buttons */
+}
+
+.select2-dropdown .select-all {
+    padding: 8px;
+    cursor: pointer;
+    color: #007BFF;
+    text-align: center;
+    border: 1px solid #007BFF;
+    border-radius: 4px; /* Rounded corners */
+    margin-right: 5px; /* Space between buttons */
+}
+
+.select2-dropdown .select-all:hover {
+    background-color: #f1f1f1;
+}
+
+/* Custom checkbox style */
+.custom-checkbox {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #007BFF;
+    border-radius: 4px;
+    background-color: white;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.custom-checkbox.checked {
+    background-color: #007BFF;
+    border-color: #007BFF;
+}
+
+.custom-checkbox::after {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    left: 7px;
+    top: 2px;
+    opacity: 0;
+}
+
+.custom-checkbox.checked::after {
+    opacity: 1;
+}
+.unit_name_div{
+    background-color: #3fc2a3 !important;
+    color: #fff;
+    margin-top: 10px;
+}
+/* select 2 styles*/
+
